@@ -41,6 +41,8 @@ body {
   right: 0;
 
   z-index: 1;
+
+  transition: background-color 100ms ease-out;
 }
 
 .theMovingThing {
@@ -65,5 +67,8 @@ body {
 
   position: absolute;
 
+  opacity: 0;
   visibility: collapse;
+
+  transition: opacity 100ms ease-out, visibility 100ms ease-out;
 }
